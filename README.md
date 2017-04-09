@@ -1,7 +1,7 @@
-#nwjs-angular-hpf   
+# nwjs-angular-hpf   
 Use nwjs-v0.21.5 and angular4 to create desktop applications 使用 nwjs-v0.21.5 和 angular4 创建桌面应用
 
-##安装步骤  
+## 安装步骤  
 
 1. 安装nvm for windows  
     [nvm-windows安装包下载地址](https://github.com/coreybutler/nvm-windows/releases)
