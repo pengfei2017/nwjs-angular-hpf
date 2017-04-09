@@ -1,28 +1,35 @@
 # WeAppTeller
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+##安装步骤  
 
-## Development server
+1.安装nvm for windows
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[nvm-windows安装包下载地址](https://github.com/coreybutler/nvm-windows/releases)
 
-## Code scaffolding
+1.安装node v7.8.0
+~~~
+nvm install 7.8.0
+~~~
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+1.安装@angular/cli
+~~~
+npm install @angular/cli -g
+~~~
 
-## Build
+1.下载程序包并进入相关目录执行npm install
+~~~
+git clone https://github.com/pengfei2017/nwjs0.21.5-angular4-hpf.git
+cd nwjs0.21.5-angular4-hpf
+npm install
+~~~
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+1.运行angular开发环境服务器
+~~~
+ng serve
+~~~
 
-## Running unit tests
+1.运行nw客户端
+~~~
+nw .
+~~~
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

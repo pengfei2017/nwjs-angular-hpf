@@ -1,0 +1,29 @@
+[0407/202551.837:ERROR:registration_protocol_win.cc(55)] CreateFile: 系统找不到指定的文件。 (0x2)
+[0408/191457.333:ERROR:process_info.cc(625)] range at 0xafa42a2e00000000, size 0x214 fully unreadable
+[0408/191457.333:ERROR:process_info.cc(625)] range at 0xafa42a4e00000000, size 0x214 fully unreadable
+[0408/191457.333:ERROR:process_info.cc(625)] range at 0x0, size 0x214 fully unreadable
+[0408/191457.453:ERROR:http_transport_win.cc(50)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2EE6)
+[0408/194553.886:ERROR:process_info.cc(625)] range at 0xf80137e200000000, size 0x1b6 fully unreadable
+[0408/194553.888:ERROR:process_info.cc(625)] range at 0xf801380200000000, size 0x1b6 fully unreadable
+[0408/194553.888:ERROR:process_info.cc(625)] range at 0x0, size 0x1b6 fully unreadable
+[0408/194554.140:ERROR:http_transport_win.cc(50)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2EE6)
+[0408/194704.371:ERROR:process_info.cc(625)] range at 0xe7b537e200000000, size 0x2a5 fully unreadable
+[0408/194704.371:ERROR:process_info.cc(625)] range at 0xe7b5380200000000, size 0x2a5 fully unreadable
+[0408/194704.371:ERROR:process_info.cc(625)] range at 0x0, size 0x2a5 fully unreadable
+[0408/194704.570:ERROR:http_transport_win.cc(50)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2EE6)
+[0408/203345.333:ERROR:process_info.cc(625)] range at 0xf0092a2e00000000, size 0x1d4 fully unreadable
+[0408/203345.334:ERROR:process_info.cc(625)] range at 0xf0092a4e00000000, size 0x1d4 fully unreadable
+[0408/203345.334:ERROR:process_info.cc(625)] range at 0x0, size 0x1d4 fully unreadable
+[0408/203345.430:ERROR:http_transport_win.cc(50)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2EE6)
+[0409/005618.722:ERROR:process_info.cc(625)] range at 0xae7037e200000000, size 0x19b fully unreadable
+[0409/005618.722:ERROR:process_info.cc(625)] range at 0xae70380200000000, size 0x19b fully unreadable
+[0409/005618.722:ERROR:process_info.cc(625)] range at 0x0, size 0x19b fully unreadable
+[0409/005618.833:ERROR:http_transport_win.cc(50)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2EE6)
+[0409/030647.545:ERROR:process_info.cc(625)] range at 0xf60d2a2e00000000, size 0x1ac fully unreadable
+[0409/030647.545:ERROR:process_info.cc(625)] range at 0xf60d2a4e00000000, size 0x1ac fully unreadable
+[0409/030647.545:ERROR:process_info.cc(625)] range at 0x0, size 0x1ac fully unreadable
+[0409/030647.752:ERROR:http_transport_win.cc(50)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2EE6)
+[0409/034552.284:ERROR:process_info.cc(625)] range at 0x752e2a4e00000000, size 0x225 fully unreadable
+[0409/034552.284:ERROR:process_info.cc(625)] range at 0x752e2a6e00000000, size 0x225 fully unreadable
+[0409/034552.284:ERROR:process_info.cc(625)] range at 0x0, size 0x225 fully unreadable
+[0409/034552.645:ERROR:http_transport_win.cc(50)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2EE6)

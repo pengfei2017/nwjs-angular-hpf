@@ -1,3 +1,35 @@
-<h1>
-  {{title}}
-</h1>
+<div class="header">
+  <div class="logo"><img src="../assets/images/logo_white.png"></div>
+  <div class="header-toolbar">
+    <img (click)="closeApp()" src="../assets/images/icon_close_white.png">
+    <img (click)="minimizeApp()" src="../assets/images/icon_minimize_white.png">
+  </div>
+</div>
+<div class="content">
+  <div class="content-left">
+    <div class="user-info">
+      <div class="user-head-portrait-box">
+        <!--如果图片不存在，就用文字，不要用alt，样式不好看-->
+        <img src="../assets/images/user-header-img.jpg">
+      </div>
+      <div class="user-name">陈龙</div>
+      <div class="user-company">俊隆实业</div>
+    </div>
+    <div class="main-menu">
+      <div class="menu-item active"><img src="../assets/images/icon_collection.png"><img
+        src="../assets/images/icon_collection_click.png">收款
+      </div>
+      <div class="menu-item"><img src="../assets/images/icon_the_order.png"><img
+        src="../assets/images/icon_the_order_click.png">订单
+      </div>
+      <div class="menu-item"><img src="../assets/images/icon_refund.png"><img
+        src="../assets/images/icon_refund_click.png">退款
+      </div>
+    </div>
+    <div class="version-info">
+      <div class="setting"><img src="../assets/images/setting.png"></div>
+      <div class="version">版本：2.0.0</div>
+    </div>
+  </div>
+  <div class="content-right">{{content}}</div>
+</div>

@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  font-family: "Microsoft YaHei";
+}
+
+html, body, app-root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"], textarea {
+  -webkit-user-select: text;
+}
+
+.loading-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
