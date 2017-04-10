@@ -10,8 +10,9 @@ var manifest = nw_app.manifest;
 
 //定义父子窗口间通信的消息类型
 const WinMsgType = {
-  MinimizeWindow: 0,
-  CloseWindow: 1
+  InitNW: 0,
+  MinimizeWindow: 1,
+  CloseWindow: 2
 };
 
 /**
@@ -19,7 +20,7 @@ const WinMsgType = {
  */
 window.onload = function () {
   //向子窗口发送消息 系统初始化完成（加载数据动画消失）
-  window.frames["main-view"].postMessage("系统初始化完成,关闭加载数据动画", manifest.node_remote);
+  window.frames["main-view"].postMessage(WinMsgType.InitNW, manifest.node_remote);
 };
 
 /**

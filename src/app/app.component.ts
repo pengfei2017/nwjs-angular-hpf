@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
+
 import {WinMsgType} from './common/enum/win-msg-type.enum';
+import {WinMsgService} from './common/utils/win-msg.service';
 
 @Component({
   selector: 'app-root',
@@ -9,16 +11,20 @@ import {WinMsgType} from './common/enum/win-msg-type.enum';
 export class AppComponent implements OnInit {
   content = 'app works!';
 
-  ngOnInit() {
+  constructor(public win_msg_service: WinMsgService) {
 
+  }
+
+  ngOnInit() {
+    this.win_msg_service.addMessageEventListener();
   }
 
   minimizeApp() {
-    window.parent.postMessage(WinMsgType.MinimizeWindow, '*');
+    this.win_msg_service.sendMsg(WinMsgType.MinimizeWindow);
   }
 
   closeApp() {
-    window.parent.postMessage(WinMsgType.CloseWindow, '*');
+    this.win_msg_service.sendMsg(WinMsgType.CloseWindow);
   }
 
 }
